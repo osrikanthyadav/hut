@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <servlet>
+  <servlet-name>hz</servlet-name>
+  <servlet-class>pk.Calas</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  		<servlet-name>hz</servlet-name>
+  		<url-pattern>/act</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+  <servlet-name>oool</servlet-name>
+  <servlet-class>pk.SqServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  		<servlet-name>oool</servlet-name>
+  		<url-pattern>/uk</url-pattern>
+  </servlet-mapping>
+</web-app>
